@@ -1,6 +1,5 @@
 import 'dart:ffi';
-
-import 'package:coffe_app/bar3.dart';
+import 'package:coffe_app/coffe.dart';
 import 'package:coffe_app/glass.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -268,11 +267,21 @@ class _main_categoryState extends State<main_category> {
                                                     padding:
                                                         const EdgeInsets.only(
                                                             right: 9.0),
-                                                    child: Container(
-                                                      color:
-                                                          const Color.fromRGBO(
-                                                              102, 163, 92, 1),
-                                                      child: Icon(Icons.add),
+                                                    child: InkWell(
+                                                      child: Container(
+                                                        color: const Color
+                                                                .fromRGBO(
+                                                            102, 163, 92, 1),
+                                                        child: Icon(Icons.add),
+                                                      ),
+                                                      onTap: () {
+                                                        Navigator.push(
+                                                            context,
+                                                            MaterialPageRoute(
+                                                                builder:
+                                                                    (context) =>
+                                                                        Cofee()));
+                                                      },
                                                     ),
                                                   ),
                                                 ],
@@ -355,11 +364,22 @@ class _main_categoryState extends State<main_category> {
                                                       padding:
                                                           const EdgeInsets.only(
                                                               right: 8.0),
-                                                      child: Container(
-                                                        color: const Color
-                                                                .fromRGBO(
-                                                            102, 163, 92, 1),
-                                                        child: Icon(Icons.add),
+                                                      child: InkWell(
+                                                        child: Container(
+                                                          color: const Color
+                                                                  .fromRGBO(
+                                                              102, 163, 92, 1),
+                                                          child:
+                                                              Icon(Icons.add),
+                                                        ),
+                                                        onTap: () {
+                                                          Navigator.push(
+                                                              context,
+                                                              MaterialPageRoute(
+                                                                  builder:
+                                                                      (context) =>
+                                                                          Cofee()));
+                                                        },
                                                       ),
                                                     ),
                                                   ],
@@ -436,11 +456,21 @@ class _main_categoryState extends State<main_category> {
                                                     padding:
                                                         const EdgeInsets.only(
                                                             right: 8.0),
-                                                    child: Container(
-                                                      color:
-                                                          const Color.fromRGBO(
-                                                              102, 163, 92, 1),
-                                                      child: Icon(Icons.add),
+                                                    child: InkWell(
+                                                      child: Container(
+                                                        color: const Color
+                                                                .fromRGBO(
+                                                            102, 163, 92, 1),
+                                                        child: Icon(Icons.add),
+                                                      ),
+                                                      onTap: () {
+                                                        Navigator.push(
+                                                            context,
+                                                            MaterialPageRoute(
+                                                                builder:
+                                                                    (context) =>
+                                                                        Cofee()));
+                                                      },
                                                     ),
                                                   ),
                                                 ],

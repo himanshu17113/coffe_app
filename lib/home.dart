@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:coffe_app/main_catalog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -184,7 +185,12 @@ class _HomeState extends State<Home> {
                     ),
                   ),
                   ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => main_category()));
+                      },
                       style: ElevatedButton.styleFrom(
                           padding: const EdgeInsets.all(0),
                           shape: RoundedRectangleBorder(
@@ -221,7 +227,12 @@ class _HomeState extends State<Home> {
                           side: BorderSide(color: Colors.white, width: 1),
                           elevation: 20,
                         ),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => main_category()));
+                        },
                         child: Text(
                           'Signup',
                           style: TextStyle(

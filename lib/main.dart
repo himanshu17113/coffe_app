@@ -1,5 +1,3 @@
-import 'package:coffe_app/bar2.dart';
-import 'package:coffe_app/bottom.dart';
 import 'package:coffe_app/coffe.dart';
 import 'package:coffe_app/home.dart';
 import 'package:coffe_app/main_catalog.dart';
@@ -21,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const main_category(),
-      home: Cofee(),
+      home: Home(),
     );
   }
 }
