@@ -1,6 +1,7 @@
 # coffe_app
 
- UI![finalcaffeegif](https://user-images.githubusercontent.com/98476250/210264849-19ee9293-a380-49c8-8d29-b86014703f88.gif)
+ UI!
+ [finalcaffeegif](https://user-images.githubusercontent.com/98476250/210264849-19ee9293-a380-49c8-8d29-b86014703f88.gif)
 
 
 ![login screen](https://user-images.githubusercontent.com/98476250/210244758-e5756b23-ab93-42ff-8018-686aa5fa3e84.jpg)
